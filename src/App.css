@@ -1,4 +1,4 @@
-/* Center everything */
+
 body {
   margin: 0;
   padding: 0;
@@ -6,20 +6,19 @@ body {
   background-color: #f4f6f8;
 }
 
-/* Heading and layout */
+
 h2, h3 {
   color: #333;
   text-align: center;
   margin-top: 20px;
 }
 
-/* Loader/Error */
+
 p {
   text-align: center;
   font-size: 1rem;
 }
 
-/* MUI Buttons and Inputs default alignment */
 .MuiBox-root {
   display: flex;
   flex-direction: column;
@@ -27,7 +26,7 @@ p {
   gap: 12px;
 }
 
-/* Card styling */
+
 .MuiCard-root {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   background: #fff;
@@ -35,7 +34,7 @@ p {
   padding: 16px;
 }
 
-/* Responsive tweaks */
+
 @media (max-width: 600px) {
   .MuiCard-root {
     width: 90%;

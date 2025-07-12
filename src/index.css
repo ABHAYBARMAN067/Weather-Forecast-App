@@ -1,4 +1,4 @@
-/* Reset browser styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +13,6 @@ html, body {
   color: #333;
 }
 
-/* Make root div take full height */
 #root {
   min-height: 100vh;
   display: flex;
@@ -21,7 +20,7 @@ html, body {
   justify-content: flex-start;
 }
 
-/* Links */
+
 a {
   text-decoration: none;
   color: inherit;

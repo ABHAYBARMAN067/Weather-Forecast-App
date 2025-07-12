@@ -31,7 +31,7 @@ function App() {
         setError("❌ City not found");
       } else {
         setWeatherData(data);
-        setCity(""); // ✅ clear input after successful fetch
+        setCity(""); 
       }
     } catch (err) {
       setError("🚨 Something went wrong");

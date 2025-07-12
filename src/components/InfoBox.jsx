@@ -1,6 +1,5 @@
 import { Card, CardContent, Typography } from "@mui/material";
 
-// Function to return weather emoji based on main condition
 function getWeatherIcon(main) {
   switch (main) {
     case "Clouds":
@@ -18,7 +17,7 @@ function getWeatherIcon(main) {
   }
 }
 
-// Main component
+
 function InfoBox({ data }) {
   if (
     !data ||
